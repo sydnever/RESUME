@@ -4,6 +4,8 @@
 
 sydnever@foxmail.com
 
+https://github.com/sydnever
+
 ---
 ###哈尔滨工业大学 软件工程专业 本科
 
