@@ -20,4 +20,4 @@ https://github.com/sydnever
 
 2017年开始学习
 
-2017.2 通过arpspoof工具在寝室局域网实现了ARP欺骗，并复写了python版的arpspoof
+2017.2 通过arpspoof工具在寝室局域网实现了ARP欺骗，并复写了十分简易的arpspoof
