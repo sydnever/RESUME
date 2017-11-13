@@ -21,7 +21,7 @@ CET-4 486分
 * Oracle数据导出工具开发：使用OCI库，将数据导出成可自定义格式的CSV文件。
     * 独立完成
 * MySQL数据库中间件，复杂语句相关功能增强：使用Spark框架，以C++/Python混合编程方式，与原有数据库中间件产品DBScale进行桥接，主要增强了复杂的跨节点join语句性能。
-    * Python C API 组内技术分享
+    * Python C API 组内技术分享（组织材料并进行讲解，下同）
     * SparkSQL 组内技术分享
     * 与Spark集群桥接部分代码的编写
 * 基于CockroachDB的New SQL数据库开发：
