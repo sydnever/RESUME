@@ -37,4 +37,6 @@ CET-4 486分
         * 与CockroachDB对比，对TiDB架构进行讲解
         * 对TiSpark进行讲解
         * 对Spark on CockroachDB的可行性进行分析
-    * CockroachDB 优化器
+    * CockroachDB 优化器相关开发
+        * 对CockroachDB进行TPC-H测试
+        * 调研GreenPlum的orca项目，尝试基于此项目实现一个模块化可插拔的优化器，与CockroachDB原有分支并行
