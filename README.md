@@ -40,4 +40,4 @@ CET-4 486分
     * CockroachDB 优化器相关开发
         * 对CockroachDB进行TPC-H测试
         * 调研GreenPlum的orca项目，尝试基于此项目实现一个模块化可插拔的优化器，与CockroachDB原有分支并行
-        * 着手开发[issue#19450 distsql: support semi-joins and anti-joins](https://github.com/cockroachdb/cockroach/issues/19450)
+        * 着手开发[sql/distsql: push down NOT NULL constraints on equality columns during planning #20100](https://github.com/cockroachdb/cockroach/issues/20100)
