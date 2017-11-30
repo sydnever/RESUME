@@ -39,5 +39,5 @@ CET-4 486分
         * 对Spark on CockroachDB的可行性进行分析
     * CockroachDB 优化器相关开发
         * 对CockroachDB进行TPC-H测试
-        * 调研GreenPlum的orca项目，尝试基于此项目实现一个模块化可插拔的优化器，与CockroachDB原有分支并行
-        * 着手开发[sql/distsql: push down NOT NULL constraints on equality columns during planning #20100](https://github.com/cockroachdb/cockroach/issues/20100)
+        * 与同事合作开发[sql/distsql: push down NOT NULL constraints on equality columns during planning #20100](https://github.com/cockroachdb/cockroach/issues/20100)
+        * 提出并着手解决[sql: There should not be a "NOT NULL" filter on "NOT NULL" columns in optimized plan #20237](https://github.com/cockroachdb/cockroach/issues/20237)
