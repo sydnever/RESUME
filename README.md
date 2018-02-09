@@ -20,24 +20,11 @@ CET-4 486分
 
 * Oracle数据导出工具开发：使用OCI库，将数据导出成可自定义格式的CSV文件。
     * 独立完成
-* MySQL数据库中间件，复杂语句相关功能增强：使用Spark框架，以C++/Python混合编程方式，与原有数据库中间件产品DBScale进行桥接，主要增强了复杂的跨节点join语句性能。
-    * Python C API 组内技术分享（组织材料并进行讲解，下同）
-    * SparkSQL 组内技术分享
-    * 与Spark集群桥接部分代码的编写
+* 对MySQL数据库中间件DBScale，复杂语句相关功能进行增强
+    * 使用Spark框架，以C++/Python混合编程方式，与原有数据库中间件产品DBScale进行桥接，主要增强了复杂的跨节点join语句性能。
+    * 因pyspark在C/C++中调用时，基本无法处理并发场景，选择使用Thrift和Spark Java API对桥接部分进行替换
+        * 与Spark集群桥接部分代码的编写
 * 基于CockroachDB的New SQL数据库开发：
-    
-    * Protocol Buffer 组内技术分享
-    * cgo 组内技术分享
-    * rocksdb 组内技术分享
-    * Structured data encoding in CockroachDB SQL 组内技术分享
-    * Metadata in CockroachDB 组内技术分享
-    * TiSpark 组内技术分享
-        
-        * 参加Meetup: When TiDB meets Spark
-        * 与CockroachDB对比，对TiDB架构进行讲解
-        * 对TiSpark进行讲解
-        * 对Spark on CockroachDB的可行性进行分析
-    * CockroachDB 优化器相关开发
-        * 对CockroachDB进行TPC-H测试
-        * 与同事合作开发[sql/distsql: push down NOT NULL constraints on equality columns during planning #20100](https://github.com/cockroachdb/cockroach/issues/20100)
-        * 提出并着手解决[sql: There should not be a "NOT NULL" filter on "NOT NULL" columns in optimized plan #20237](https://github.com/cockroachdb/cockroach/issues/20237)
+    * 对CockroachDB进行TPC-H测试
+    * 与同事合作开发[sql/distsql: push down NOT NULL constraints on equality columns during planning #20100](https://github.com/cockroachdb/cockroach/issues/20100)
+    * 提出并着手解决[sql: There should not be a "NOT NULL" filter on "NOT NULL" columns in optimized plan #20237](https://github.com/cockroachdb/cockroach/issues/20237)
